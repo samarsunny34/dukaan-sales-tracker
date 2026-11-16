@@ -55,6 +55,14 @@ flet build apk
 
 The APK is created under `build/apk/`. Copy it to your phone and install it.
 
+### Build it on GitHub (no local setup needed)
+
+Every push to `main` also builds the APK automatically with GitHub
+Actions (`.github/workflows/build-apk.yml`). Open the repo's **Actions**
+tab, click the latest **Build APK** run, and download the
+**dukaan-sales-tracker-apk** artifact — it contains the ready-to-install
+`.apk` file.
+
 ## Run the tests
 
 ```bash
