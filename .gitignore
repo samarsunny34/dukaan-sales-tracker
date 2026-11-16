@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+dukaan.db
+sales_export.csv
+build/
+*.apk
+*.aab
+.DS_Store
